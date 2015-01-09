@@ -1,3 +1,4 @@
+<html lang-"en" ng-app="app">
 <head>
     <title>Sleazy</title>
     <%=stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track'=> true %>
@@ -8,11 +9,15 @@
                 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap-theme.min.css">
 </head>
 
-<header class="profilehead">hi you</header>
+    <header class="profilehead">hi you</header>
 
+<body>
 <% if @tracks %>
   <% @tracks.each do |track| %>
-    <li>track id= <%= track %> </li>
+    <li> 
+    <a href="<%= track.object %>"> <%=track.title %> </a>
+    <%= link_to "-", track_path(track), method: :delete %>
+    </li>
   <% end %>
 <% end %>
 
@@ -22,10 +27,12 @@
         <a ng-click="stopSong()" id="pause"><strong>&#9616;&#9616;</strong></a>
         <div id="back">
         <% if user_signed_in? %>
-        <a ng-click="delete(song)" id="deletesong">-</a>
           <%= link_to "￩", tracks_path %>
         <% end %>
         </div>
       </div>
       </center>
     </footer>
+</body>
+</html>
+

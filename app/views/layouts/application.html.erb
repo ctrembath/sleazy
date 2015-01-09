@@ -21,6 +21,7 @@
                     <%=link_to 'out', destroy_user_session_path, method: :delete %>
                     
                     </div>
+
             <% else %>
     
                 <div id="in">
@@ -28,23 +29,15 @@
                 </div>
                 <div id="up">
                     <%=link_to 'up', new_user_registration_path %>
-       
             </div>
         </div>
         </div>
     <% end %>
 
+        <p class="notice"><%=notice %></p>
 
+        <p class="alert"><%=alert %></p>
 
-
-
-
-     <!--    <p class="notice">
-            <%=notice %>
-        </p>
-        <p class="alert">
-            <%=alert %>
-        </p> -->
         <%=yield %>
 
 </body>
