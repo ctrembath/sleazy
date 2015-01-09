@@ -7,12 +7,25 @@
                 <link href='http://fonts.googleapis.com/css?family=Source+Code+Pro:200,300,400,600' rel='stylesheet' type='text/css'>
                 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap-theme.min.css">
 </head>
-<%= @user.first_name %><br>
-<%= @user.last_name %><br>
-<%= @user.profile_name %><br>
+
+<header class="profilehead">hi you</header>
 
 <% if @tracks %>
   <% @tracks.each do |track| %>
     <li>track id= <%= track %> </li>
   <% end %>
 <% end %>
+
+ <footer>
+ <center>
+      <div class="options">
+        <a ng-click="stopSong()" id="pause"><strong>&#9616;&#9616;</strong></a>
+        <div id="back">
+        <% if user_signed_in? %>
+        <a ng-click="delete(song)" id="deletesong">-</a>
+          <%= link_to "￩", tracks_path %>
+        <% end %>
+        </div>
+      </div>
+      </center>
+    </footer>

@@ -84,7 +84,7 @@ input[type="text"] {
 input[type="text"]:focus {
   z-index: 1;
   border-bottom: 1px solid #BBB;
-  cursor: text;
+  cursor: pointer;
   text-align: center;
 }
 input[type="submit"] {
@@ -158,7 +158,7 @@ input, input[placeholder]{
 }
 
 #out {
-  margin-left: 2px;
+  text-align: center;
 }
 
 #in:hover {
@@ -187,7 +187,14 @@ input, input[placeholder]{
   margin-right: auto;
 }
 
+.wrapper {
+  height: 200px;
+  width: 250px;
+  float: left;
+}
+
 .artwork {
+  cursor: pointer;
   float: left;
   margin-top: 40px;
   opacity: 0.85;
@@ -200,6 +207,7 @@ input, input[placeholder]{
   -moz-border-radius: 50%;
   width: 200px;
   height: 200px;
+
 }
 
 
@@ -231,40 +239,40 @@ input, input[placeholder]{
 
 footer {
   position:fixed;
-  height:150px;
-   bottom:0px;
-   width:100%;
-   margin-bottom: 0px;
+  height:100px;
+  bottom:0px;
+  width:100%;
+  margin-bottom: 0px;
   background-color: #9DDBAD;
 }
 
-#song-title {
-  font-family: 'Source Code Pro', serif;
-  text-decoration: none;
-  font-size: 30px;
-  margin-top: 5px;
-  text-align: center;
+.plus {
+  cursor:pointer;
+  position: relative;
+  left: 0px;
+  bottom: 157px
 }
 
-.options {
-  clear: both;
-}
-
-#add {
+#addsong {
   font-family: 'Source Code Pro', serif;
   color: black;
   font-size: 70px;
-  float: left;
-  margin-left: 30%;
+  margin: 0;
+  padding: 0;
+}
 
+#addsong:hover{
+  opacity: 0.5;
+  text-decoration: none;
+  color: green;
 }
 
 #pause {
-  margin-top: 25px;
+  position: fixed;  
+  margin-top: 20px;
   color: black;
   font-size: 30px;
-  float: right;
-  margin-right: 30%;
+  cursor: pointer;
 }
 
 #pause:hover{
@@ -273,7 +281,31 @@ footer {
   color: green;
 }
 
-#add:hover{
+#me {
+  cursor: pointer;
+  float: left;
+  margin-left: 5px;
+  font-size: 70px;
+  color: black;
+  list-style-type:none;
+}
+
+
+#me:hover {
+  opacity: 0.5;
+  text-decoration: none;
+  color: green;
+}
+
+
+#back {
+  float: left;
+  margin-left: 10px;
+  font-size: 70px;
+  color: black;
+}
+
+#back:hover{
   opacity: 0.5;
   text-decoration: none;
   color: green;
