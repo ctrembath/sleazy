@@ -157,10 +157,6 @@ input, input[placeholder]{
  margin-right: 40%;
 }
 
-#me {
-  margin-left: 2px;
-}
-
 #out {
   margin-left: 2px;
 }
@@ -205,6 +201,8 @@ input, input[placeholder]{
   width: 200px;
   height: 200px;
 }
+
+
 
 /*.artwork:hover {
   margin-left: 45%;
