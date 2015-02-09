@@ -1,6 +1,7 @@
 # Sleazy Sounds
 
-![screen shot 2015-02-09 at 16 14 41](https://cloud.githubusercontent.com/assets/8418748/6110009/d2727056-b076-11e4-9930-277b8c4b78a2.png)
+![sleazy](https://cloud.githubusercontent.com/assets/8418748/6111551/aca02232-b081-11e4-93f6-851c67b4d2ab.png)
+
 
 
 Sleazy Sounds is a music website that lets users search for and play tracks, and subscribers save their favourite tunes to playlists. The playlists are then saved to the subscribers' private dashboard and displayed on the home page.
