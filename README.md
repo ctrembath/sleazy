@@ -1,5 +1,8 @@
 # Sleazy Sounds
 
+![screen shot 2015-02-09 at 16 14 41](https://cloud.githubusercontent.com/assets/8418748/6110009/d2727056-b076-11e4-9930-277b8c4b78a2.png)
+
+
 Sleazy Sounds is a music website that lets users search for and play tracks, and subscribers save their favourite tunes to playlists. The playlists are then saved to the subscribers' private dashboard and displayed on the home page.
 
 The project was set as a challenge for the 4-day 'Makerthon' at Makers Academy, and our team consisted of four music-loving ladies.
