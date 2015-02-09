@@ -1,6 +1,7 @@
 # Sleazy Sounds
 
-![sleazy](https://cloud.githubusercontent.com/assets/8418748/6111551/aca02232-b081-11e4-93f6-851c67b4d2ab.png)
+
+![sleazy](https://cloud.githubusercontent.com/assets/8418748/6111640/59e3e83e-b082-11e4-8ee8-8213e4a21ca2.png)
 
 
 
