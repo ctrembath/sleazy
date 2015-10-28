@@ -1,6 +1,5 @@
 source 'https://rubygems.org'
-source 'https://rails-assets.org'
-
+gem 'rails-assets-highcharts', source: 'http://rails-assets.org'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.1.8'
 # Use postgresql as the database for Active Record
